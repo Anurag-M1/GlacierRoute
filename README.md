@@ -47,7 +47,6 @@ Our orchestrator coordinates 7 specialist agents to handle every aspect of your 
 
 2. **Frontend Setup**:
    ```bash
-   cd apps/web
    npm install
    npm run dev
    ```

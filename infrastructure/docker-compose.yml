@@ -4,8 +4,8 @@ services:
   # ===== Next.js Frontend =====
   web:
     build:
-      context: ./apps/web
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: infrastructure/Dockerfile.web  # Ideally this should point to a valid dockerfile
     ports:
       - "3000:3000"
     environment:
