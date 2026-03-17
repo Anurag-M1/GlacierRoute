@@ -2,8 +2,15 @@
   "name": "glacier-route",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
-    "build": "cd apps/web && npm install && npm run build",
-    "install-web": "cd apps/web && npm install"
+    "build": "npm run build --prefix apps/web",
+    "install-web": "npm install --prefix apps/web"
   }
 }
