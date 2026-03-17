@@ -2,7 +2,7 @@
 
 GlacierRoute is a next-generation travel planning platform that replaces hours of manual research with a team of **8 specialized AI agents**. Powered by **Next.js**, **FastAPI**, and **LangGraph**, it orchestrates complex travel data into a single, cohesive experience.
 
-![GlacierRoute Banner](https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop)
+<img width="1469" height="827" alt="GlacierRoute" src="https://github.com/user-attachments/assets/a8876f44-ed0a-4114-ab3f-61ec63cabaa2" />
 
 ## 🤖 The Agent Pipeline
 Our orchestrator coordinates 7 specialist agents to handle every aspect of your trip:
