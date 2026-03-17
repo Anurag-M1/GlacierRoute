@@ -1,0 +1,9 @@
+{
+  "name": "glacier-route",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd apps/web && npm install && npm run build",
+    "install-web": "cd apps/web && npm install"
+  }
+}
